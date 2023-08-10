@@ -1,0 +1,17 @@
+/* Light Theme Styles */
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.movie-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+}

@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\env",
+    "\\MediaServer",
+    "\\MediaServer\\home",
+    "\\MediaServer\\home\\static",
+    "\\MediaServer\\home\\templates",
+    "\\MediaServer\\MediaServer",
+    "\\MediaServer\\productionfiles"
+  ],
+  "SelectedNode": "\\MediaServer\\home\\static\\styles.css",
+  "PreviewInSolutionExplorer": false
+}

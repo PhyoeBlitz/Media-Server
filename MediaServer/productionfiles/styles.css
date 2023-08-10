@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .movie-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+
+/* Styles for the light theme button */
+.light-theme .theme-toggle {
+    background-color: #fff;
+    color: #333;
+    /* Add other light theme styles */
+}
+
+/* Styles for the dark theme button */
+.dark-theme .theme-toggle {
+    background-color: #333;
+    color: #fff;
+    /* Add other dark theme styles */
+}
+
+/* Styles for the sun and moon icons */
+.bi-sun:before {
+    content: "\f1d1"; /* Unicode character for sun icon in Bootstrap Icons */
+}
+
+.bi-moon:before {
+    content: "\f495"; /* Unicode character for moon icon in Bootstrap Icons */
+}
