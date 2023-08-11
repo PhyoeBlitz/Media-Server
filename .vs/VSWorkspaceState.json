@@ -1,10 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\MediaServer",
-    "\\MediaServer\\home\\static",
-    "\\MediaServer\\home\\templates"
+    ""
   ],
-  "SelectedNode": "\\MediaServer\\.ebextensions",
   "PreviewInSolutionExplorer": false
 }
