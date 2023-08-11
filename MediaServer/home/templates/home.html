@@ -31,16 +31,16 @@
                 <li><a href="#">Movies</a></li>
                 <li><a href="#">Categories</a></li>
                 <li><a href="#">About</a></li>
+                <li>
+                    <form action="{% url 'toggle_theme' %}" method="post" class="theme-toggle">
+                        {% csrf_token %}
+                        <button type="submit" class="btn {% if request.session.theme == 'dark' %}btn-dark{% else %}btn-light{% endif %}">
+                            <span class="bi {% if request.session.theme == 'dark' %}bi-moon{% else %}bi-sun{% endif %}"></span>
+                        </button>
+                    </form>
+                </li>
             </ul>
         </nav>
-        <form action="{% url 'toggle_theme' %}" method="post">
-            {% csrf_token %}
-            <button type="submit" class="btn theme-toggle {% if request.session.theme == 'dark' %}dark-theme{% else %}light-theme{% endif %}">
-                <span class="bi {% if request.session.theme == 'dark' %}bi-moon{% else %}bi-sun{% endif %}"></span>
-            </button>
-        </form>
-
-
     </header>
 
     <main>
